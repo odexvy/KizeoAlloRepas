@@ -1,0 +1,30 @@
+{
+	"displayName": "AlloRepas",
+	"expo": {
+		"entryPoint": "./app/screens/Home.tsx",
+		"assetBundlePatterns": ["app/assets/**/*"],
+		"name": "AlloRepas",
+		"platforms": ["android"],
+		"privacy": "unlisted",
+		"sdkVersion": "37.0.0",
+		"slug": "AlloRepas",
+		"orientation": "portrait",
+		"splash": {
+			"image": "./app/assets/splash.png",
+			"resizeMode": "contain"
+		},
+		"icon": "./app/assets/icon.png",
+		"version": "0.1.0",
+		"android": {
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyBpPym_Z-AaZ80qdIYZiLCAkrJJPJWgewE"
+				}
+			},
+			"package": "com.Kizeo.AlloRepas",
+			"versionCode": 1,
+			"permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+		}
+	},
+	"name": "AlloRepas"
+}
