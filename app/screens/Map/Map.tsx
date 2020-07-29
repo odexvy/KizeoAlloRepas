@@ -140,6 +140,7 @@ const MapButton = styled(Button)`
 	border-radius: 50px;
 	margin-top: 10px;
 	padding: 10px 24px;
+	width: ${SCREEN_WIDTH / 2.5};
 `;
 
 const MapButtonText = styled.Text`
